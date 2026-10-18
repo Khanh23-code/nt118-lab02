@@ -31,6 +31,11 @@
         <activity
             android:name=".Case02Activity"
             android:exported="true" />
+
+        <!-- Bài 3: ArrayList & ListView với Object (OOP) -->
+        <activity
+            android:name=".case03.Case03Activity"
+            android:exported="true" />
     </application>
 
 </manifest>
