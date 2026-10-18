@@ -31,9 +31,12 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
         });
 
-        // Các nút bài 2 - bài 6 (sẽ được mở dần khi thực hiện tiếp)
-        findViewById(R.id.btnCase02).setOnClickListener(v -> 
-            showPendingToast("Bài 2: ListView & ArrayList"));
+        // Nút mở Bài 2
+        Button btnCase02 = findViewById(R.id.btnCase02);
+        btnCase02.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, Case02Activity.class);
+            startActivity(intent);
+        });
         findViewById(R.id.btnCase03).setOnClickListener(v -> 
             showPendingToast("Bài 3: ArrayList & ListView với Object"));
         findViewById(R.id.btnCase04).setOnClickListener(v -> 

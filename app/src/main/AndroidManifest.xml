@@ -26,6 +26,11 @@
         <activity
             android:name=".Case01Activity"
             android:exported="true" />
+
+        <!-- Bài 2: ListView & ArrayList (Thêm / Xóa) -->
+        <activity
+            android:name=".Case02Activity"
+            android:exported="true" />
     </application>
 
 </manifest>
