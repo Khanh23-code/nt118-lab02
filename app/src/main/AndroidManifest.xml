@@ -46,6 +46,11 @@
         <activity
             android:name=".case05.Case05Activity"
             android:exported="true" />
+
+        <!-- Bài 6: RecyclerView -->
+        <activity
+            android:name=".case06.Case06Activity"
+            android:exported="true" />
     </application>
 
 </manifest>

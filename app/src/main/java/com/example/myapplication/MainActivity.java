@@ -55,8 +55,12 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(MainActivity.this, com.example.myapplication.case05.Case05Activity.class);
             startActivity(intent);
         });
-        findViewById(R.id.btnCase06).setOnClickListener(v -> 
-            showPendingToast("Bài 6: RecyclerView"));
+        // Nút mở Bài 6
+        Button btnCase06 = findViewById(R.id.btnCase06);
+        btnCase06.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, com.example.myapplication.case06.Case06Activity.class);
+            startActivity(intent);
+        });
 
         // Ghi chú: Nếu bạn muốn tự động mở thẳng màn hình Bài 1 mỗi khi Run từ Android Studio,
         // bạn chỉ cần bỏ comment dòng bên dưới:
