@@ -49,8 +49,12 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(MainActivity.this, com.example.myapplication.case04.Case04Activity.class);
             startActivity(intent);
         });
-        findViewById(R.id.btnCase05).setOnClickListener(v -> 
-            showPendingToast("Bài 5: GridView & Spinner"));
+        // Nút mở Bài 5
+        Button btnCase05 = findViewById(R.id.btnCase05);
+        btnCase05.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, com.example.myapplication.case05.Case05Activity.class);
+            startActivity(intent);
+        });
         findViewById(R.id.btnCase06).setOnClickListener(v -> 
             showPendingToast("Bài 6: RecyclerView"));
 

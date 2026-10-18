@@ -41,6 +41,11 @@
         <activity
             android:name=".case04.Case04Activity"
             android:exported="true" />
+
+        <!-- Bài 5: GridView & Spinner -->
+        <activity
+            android:name=".case05.Case05Activity"
+            android:exported="true" />
     </application>
 
 </manifest>
