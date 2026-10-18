@@ -36,6 +36,11 @@
         <activity
             android:name=".case03.Case03Activity"
             android:exported="true" />
+
+        <!-- Bài 4: Custom Adapter cho ListView -->
+        <activity
+            android:name=".case04.Case04Activity"
+            android:exported="true" />
     </application>
 
 </manifest>

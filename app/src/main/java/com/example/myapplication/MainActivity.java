@@ -43,8 +43,12 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(MainActivity.this, com.example.myapplication.case03.Case03Activity.class);
             startActivity(intent);
         });
-        findViewById(R.id.btnCase04).setOnClickListener(v -> 
-            showPendingToast("Bài 4: Custom Adapter cho ListView"));
+        // Nút mở Bài 4
+        Button btnCase04 = findViewById(R.id.btnCase04);
+        btnCase04.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, com.example.myapplication.case04.Case04Activity.class);
+            startActivity(intent);
+        });
         findViewById(R.id.btnCase05).setOnClickListener(v -> 
             showPendingToast("Bài 5: GridView & Spinner"));
         findViewById(R.id.btnCase06).setOnClickListener(v -> 
